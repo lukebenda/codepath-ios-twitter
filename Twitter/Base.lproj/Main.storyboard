@@ -25,8 +25,15 @@
                                     <constraint firstAttribute="height" constant="100" id="jbI-sb-8NZ"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Login">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="42"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Login">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="system" size="42"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -42,6 +49,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginButtonRounded" destination="YQ3-R0-Cz4" id="NAN-jk-KSZ"/>
                         <segue destination="Adu-P7-qgT" kind="presentation" identifier="loginToHome" id="fgK-fd-9JP"/>
                     </connections>
                 </viewController>
