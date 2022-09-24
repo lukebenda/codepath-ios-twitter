@@ -60,9 +60,9 @@
         <!--Home-->
         <scene sceneID="fAd-ZM-KwO">
             <objects>
-                <tableViewController id="O0u-0l-zxu" customClass="HomeTableViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController modalPresentationStyle="fullScreen" id="O0u-0l-zxu" customClass="HomeTableViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="0jt-0n-Vqs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -96,9 +96,9 @@
         <!--Navigation Controller-->
         <scene sceneID="zWo-rw-ENI">
             <objects>
-                <navigationController id="Adu-P7-qgT" sceneMemberID="viewController">
+                <navigationController modalPresentationStyle="fullScreen" id="Adu-P7-qgT" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="1gx-eX-vY2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.1116269156" green="0.62900465729999999" blue="0.95010441540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.1116269156" green="0.62900465729999999" blue="0.95010441540000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
