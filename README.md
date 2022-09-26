@@ -23,4 +23,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="http://g.recordit.co/idei5TZiuU.gif" title='Launch/Login/Stay logged in Video Walkthrough' width='150' alt='Video Walkthrough'/>
+<img src="https://github.com/lukebenda/codepath-ios-twitter/blob/bf96b6bc73e572e050a7467e964f26fce623141f/launch-login-stayLoggedIn.gif" title='Launch/Login/Stay logged in Video Walkthrough' width='' alt='Video Walkthrough'/>
