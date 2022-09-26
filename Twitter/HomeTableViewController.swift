@@ -31,6 +31,9 @@ class HomeTableViewController: UITableViewController, Error {
         myRefreshControl.addTarget(self, action: #selector(loadTweets), for: .valueChanged)
         tableView.refreshControl = myRefreshControl
         
+        // Static cell height
+        self.tableView.rowHeight = 87.0
+
     }
     
     @objc func loadTweets() {
