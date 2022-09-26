@@ -23,4 +23,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="https://github.com/lukebenda/codepath-ios-twitter/blob/79795a307864875ce8b1820a07e0064718eda317/twitter1Features.gif" title='Twitter Part 1 Video Walkthrough' width='' alt='Video Walkthrough'/>
+<img src="https://github.com/lukebenda/codepath-ios-twitter/blob/79795a307864875ce8b1820a07e0064718eda317/twitter1Features.gif" title='Twitter Part 1 Video Walkthrough' width='250' alt='Video Walkthrough'/>
