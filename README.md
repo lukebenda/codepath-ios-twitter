@@ -23,4 +23,4 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-#### App icon in home screen and styled launch screen. User log in. User stays logged in on app restart.<img src="https://github.com/lukebenda/codepath-ios-twitter/blob/bf96b6bc73e572e050a7467e964f26fce623141f/launch-login-stayLoggedIn.gif" title='Launch/Login/Stay logged in Video Walkthrough' width='' alt='Video Walkthrough'/>
+<img src="https://github.com/lukebenda/codepath-ios-twitter/blob/79795a307864875ce8b1820a07e0064718eda317/twitter1Features.gif" title='Twitter Part 1 Video Walkthrough' width='' alt='Video Walkthrough'/>
