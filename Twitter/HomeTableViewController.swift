@@ -31,7 +31,8 @@ class HomeTableViewController: UITableViewController, Error {
         tableView.refreshControl = myRefreshControl
         
         // Static cell height
-        self.tableView.rowHeight = 87.0
+        self.tableView.rowHeight = UITableView.automaticDimension
+        self.tableView.estimatedRowHeight = 150
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -104,6 +105,9 @@ class HomeTableViewController: UITableViewController, Error {
             cell.profileImage.image = UIImage(data: imageData)
         }
         
+        // Get favorite status
+        cell.setFavorite(_isFavorited: tweetArray[indexPath.row]["favorited"] as! Bool)
+        cell.tweetId = tweetArray[indexPath.row]["id"] as! Int
         return cell
     }
     
