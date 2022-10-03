@@ -109,7 +109,7 @@
                                             <state key="normal" image="retweet-icon"/>
                                             <connections>
                                                 <action selector="retweet:" destination="Iiw-cD-b4Q" eventType="touchUpInside" id="Igu-bC-u5o"/>
-                                                <action selector="retweett:" destination="Iiw-cD-b4Q" eventType="touchUpInside" id="Q3C-3O-ovC"/>
+                                                <action selector="retweet:" destination="Iiw-cD-b4Q" eventType="touchUpInside" id="Q3C-3O-ovC"/>
                                             </connections>
                                         </button>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OOM-X8-w5H">

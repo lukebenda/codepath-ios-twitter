@@ -105,9 +105,10 @@ class HomeTableViewController: UITableViewController, Error {
             cell.profileImage.image = UIImage(data: imageData)
         }
         
-        // Get favorite status
+        // Get favorite/retweet statuses from API objectt
         cell.setFavorite(_isFavorited: tweetArray[indexPath.row]["favorited"] as! Bool)
         cell.tweetId = tweetArray[indexPath.row]["id"] as! Int
+        cell.setRetweeted(tweetArray[indexPath.row]["retweeted"] as! Bool)
         return cell
     }
     
