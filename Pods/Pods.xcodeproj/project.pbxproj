@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -81,6 +81,7 @@
 		BFE946D99E4DD09C706296CB70B19425 /* Pods-Twitter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E4A36222581C90DB40E400EA3FAEF5 /* Pods-Twitter-dummy.m */; };
 		BFFBDF25647F2B1607D7C04FB2D75AC7 /* BDBOAuth1RequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF2F885160741767C4447AA2C0BC379 /* BDBOAuth1RequestSerializer.m */; };
 		C13696F3D7605143956F3324210B004A /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FFED24BAE57DF4E18B783E60FC9BDA00 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C89997FF28EC878F0023BBC7 /* RSKPlaceholderTextView in Frameworks */ = {isa = PBXBuildFile; productRef = C89997FE28EC878F0023BBC7 /* RSKPlaceholderTextView */; };
 		CBACE8617E480B756EE6647BCC05C897 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B5FB52C58285EDE61A402E433A76D0 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC155255C94E418E54EFB31E99012803 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C66223DD16857A445FCB8A3D849867 /* AFNetworking-dummy.m */; };
 		D151C2E55815F81BA0E9E47C5E50FAC2 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 42528D71E0E959F24C1CFC49FFB01166 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -280,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3896AEE03DED0805E2EBB8247CAA322E /* CoreGraphics.framework in Frameworks */,
+				C89997FF28EC878F0023BBC7 /* RSKPlaceholderTextView in Frameworks */,
 				1D3E94F63FDC6E189AD0FD24CCDD2B41 /* Foundation.framework in Frameworks */,
 				A59301B048725931AD8366DAFBABB6E1 /* MobileCoreServices.framework in Frameworks */,
 				1A73F528427B197C94E28BE4FE8E8497 /* Security.framework in Frameworks */,
@@ -666,6 +668,9 @@
 			dependencies = (
 			);
 			name = AFNetworking;
+			packageProductDependencies = (
+				C89997FE28EC878F0023BBC7 /* RSKPlaceholderTextView */,
+			);
 			productName = AFNetworking;
 			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
@@ -765,6 +770,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				C89997FD28EC878F0023BBC7 /* XCRemoteSwiftPackageReference "RSKPlaceholderTextView" */,
+			);
 			productRefGroup = C7D0DA1D3DBAB1F7996FCB7DAD29A9B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1487,6 +1495,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C89997FD28EC878F0023BBC7 /* XCRemoteSwiftPackageReference "RSKPlaceholderTextView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ruslanskorb/RSKPlaceholderTextView.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C89997FE28EC878F0023BBC7 /* RSKPlaceholderTextView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C89997FD28EC878F0023BBC7 /* XCRemoteSwiftPackageReference "RSKPlaceholderTextView" */;
+			productName = RSKPlaceholderTextView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

@@ -108,7 +108,6 @@
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                             <state key="normal" image="retweet-icon"/>
                                             <connections>
-                                                <action selector="retweet:" destination="Iiw-cD-b4Q" eventType="touchUpInside" id="Igu-bC-u5o"/>
                                                 <action selector="retweet:" destination="Iiw-cD-b4Q" eventType="touchUpInside" id="Q3C-3O-ovC"/>
                                             </connections>
                                         </button>
@@ -211,6 +210,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="tweetTextBox" destination="9sh-LB-IPT" id="LAL-wv-OjQ"/>
                         <outlet property="tweetTextView" destination="9sh-LB-IPT" id="G4t-DC-ZAt"/>
                     </connections>
                 </viewController>
